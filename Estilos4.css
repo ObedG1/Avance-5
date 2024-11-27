@@ -1,0 +1,106 @@
+
+    body{
+        font-family: "Playwrite GB S", cursive;
+    }
+h1{
+    font-family: "Lobster", sans-serif;
+    
+    color: #FF6700;
+}
+
+
+#sections {
+    background-color: #004E98;
+    color: #EBEBEB;
+}
+[type="text"]{
+    border: 2px solid #004E98 ;
+}
+input[type]{
+    background-color: #3A6EA5;
+}
+input[type="text"]:focus{
+    background-color: #FF6700;
+}
+p::first-line{
+    font-family: "Bona Nova SC", serif;
+}
+div[class~="azul"]{
+    color: blue;
+}
+html_Ñ[lang|="es"]{
+    font-family: "Bona Nova SC", serif;
+}
+
+a[href^="https//"]{
+    color: #FF6700;
+}
+
+img[src$="png"]{
+    border: 5px solid #FF6700;
+}
+
+
+
+a:hover{
+    color: #3A6EA5;
+    
+}
+
+button:active{
+    background-color: #FF6700;
+}
+
+input:focus{
+    background-color: #EBEBEB;
+}
+
+input:checked{
+    background-color: #EBEBEB;
+}
+
+input:disabled{
+    background-color: #FF6700;
+    color: #EBEBEB;
+}
+
+
+
+blockquote::before{
+    content: "Cita:";
+    font-weight: bold;
+}
+
+blockquote::after{
+    content: "🐫";
+}
+
+
+cite::after{
+    content: "🤑";
+   
+}
+
+ul li::marker{
+    content: "👷‍♂️";
+}
+
+ul li ul li::marker{
+    content: "😴";
+}
+
+ul li ul li ul li::marker{
+    content: "🐸";
+}
+
+#parrafos p:first-child{
+    background-color: #004E98;
+}
+
+#parrafos p:last-child{
+    background-color: #004E98;
+}
+
+#parrafos p:nth-child(even){
+    text-decoration: underline;
+}
